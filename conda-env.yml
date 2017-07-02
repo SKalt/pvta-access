@@ -1,0 +1,171 @@
+name: urbanaccess-env
+channels:
+- conda-forge
+- udst
+- defaults
+dependencies:
+- alabaster=0.7.10=py27_0
+- asn1crypto=0.22.0=py27_0
+- astroid=1.5.3=py27_0
+- babel=2.3.4=py27_0
+- backports.functools_lru_cache=1.3=py27_0
+- backports.shutil_get_terminal_size=1.0.0=py27_1
+- backports_abc=0.5=py27_0
+- basemap=1.1.0=np111py27_1
+- basemap-data-hires=1.1.0=0
+- blas=1.1=openblas
+- bleach=1.5.0=py27_0
+- ca-certificates=2017.4.17=0
+- certifi=2017.4.17=py27_0
+- cffi=1.10.0=py27_0
+- chardet=3.0.2=py27_1
+- configparser=3.5.0=py27_0
+- cryptography=1.9=py27_0
+- cycler=0.10.0=py27_0
+- dbus=1.10.10=3
+- decorator=4.0.11=py27_0
+- docutils=0.13.1=py27_0
+- entrypoints=0.2.3=py27_1
+- enum34=1.1.6=py27_1
+- expat=2.1.0=2
+- fontconfig=2.12.1=4
+- freetype=2.7=1
+- functools32=3.2.3.2=py27_1
+- geojson=1.3.5=py27_0
+- geos=3.5.1=1
+- gettext=0.19.7=1
+- glib=2.51.4=0
+- gmp=6.1.2=0
+- gst-plugins-base=1.8.0=0
+- gstreamer=1.8.0=2
+- html5lib=0.9999999=py27_0
+- icu=58.1=1
+- idna=2.5=py27_0
+- imagesize=0.7.1=py27_0
+- ipaddress=1.0.18=py27_0
+- ipykernel=4.6.1=py27_0
+- ipython=5.4.1=py27_0
+- ipython_genutils=0.2.0=py27_0
+- isort=4.2.9=py27_0
+- jedi=0.10.0=py27_0
+- jinja2=2.9.5=py27_0
+- jpeg=9b=0
+- jsonschema=2.5.1=py27_0
+- jupyter_client=5.1.0=py27_0
+- jupyter_core=4.3.0=py27_0
+- lazy-object-proxy=1.3.0=py27_0
+- libffi=3.2.1=3
+- libiconv=1.14=4
+- libpng=1.6.28=0
+- libsodium=1.0.10=0
+- libxcb=1.12=1
+- libxml2=2.9.4=4
+- markupsafe=1.0=py27_0
+- matplotlib=2.0.2=np111py27_0
+- mccabe=0.6.1=py27_0
+- mistune=0.7.4=py27_0
+- nbconvert=5.2.1=py27_1
+- nbformat=4.3.0=py27_0
+- ncurses=5.9=10
+- networkx=1.11=py27_0
+- notebook=5.0.0=py27_0
+- numpy=1.11.3=py27_blas_openblas_200
+- numpydoc=0.7.0=py27_0
+- openblas=0.2.19=2
+- openssl=1.0.2k=0
+- pandas=0.20.2=np111py27_1
+- pandoc=1.19.2=0
+- pandocfilters=1.4.1=py27_0
+- pathlib2=2.3.0=py27_0
+- pcre=8.39=0
+- pep8=1.7.0=py27_0
+- pexpect=4.2.1=py27_0
+- pickleshare=0.7.3=py27_0
+- pip=9.0.1=py27_0
+- prompt_toolkit=1.0.14=py27_0
+- psutil=5.2.1=py27_0
+- ptyprocess=0.5.2=py27_0
+- py=1.4.34=py27_0
+- pycodestyle=2.3.1=py27_0
+- pycparser=2.17=py27_0
+- pyflakes=1.5.0=py27_0
+- pygments=2.2.0=py27_0
+- pylint=1.7.1=py27_0
+- pyopenssl=16.2.0=py27_0
+- pyparsing=2.2.0=py27_0
+- pyproj=1.9.5.1=py27_0
+- pyqt=5.6.0=py27_4
+- pyshp=1.2.11=py27_0
+- pysocks=1.6.7=py27_0
+- pytest=3.1.2=py27_0
+- python=2.7.13=1
+- python-dateutil=2.6.0=py27_0
+- pytz=2017.2=py27_0
+- pyyaml=3.12=py27_1
+- pyzmq=16.0.2=py27_2
+- qt=5.6.2=3
+- qtawesome=0.4.4=py27_0
+- qtconsole=4.3.0=py27_0
+- qtpy=1.2.1=py27_0
+- readline=6.2=0
+- requests=2.18.1=py27_0
+- rope=0.10.5=py27_0
+- scandir=1.5=py27_1
+- scikit-learn=0.18.2=np111py27_blas_openblas_200
+- scipy=0.19.1=np111py27_blas_openblas_200
+- setuptools=33.1.1=py27_0
+- simplegeneric=0.8.1=py27_0
+- singledispatch=3.4.0.3=py27_0
+- sip=4.18=py27_1
+- six=1.10.0=py27_1
+- snowballstemmer=1.2.1=py27_0
+- sphinx=1.6.2=py27_0
+- sphinxcontrib-websupport=1.0.1=py27_0
+- spyder=3.1.4=py27_0
+- sqlite=3.13.0=1
+- ssl_match_hostname=3.5.0.1=py27_1
+- subprocess32=3.2.7=py27_0
+- terminado=0.6=py27_0
+- testpath=0.3=py27_0
+- tk=8.5.19=1
+- tornado=4.5.1=py27_0
+- traitlets=4.3.2=py27_0
+- typing=3.6.1=py27_0
+- urllib3=1.21.1=py27_1
+- wcwidth=0.1.7=py27_0
+- webencodings=0.5=py27_0
+- wheel=0.29.0=py27_0
+- wrapt=1.10.8=py27_0
+- xorg-libxau=1.0.8=3
+- xorg-libxdmcp=1.1.2=3
+- xz=5.2.2=0
+- yaml=0.1.6=0
+- zeromq=4.2.1=1
+- zlib=1.2.11=0
+- ipython-notebook=4.0.4=py27_0
+- libgfortran=3.0.0=1
+- pip:
+  - backports-abc==0.5
+  - backports.functools-lru-cache==1.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.5.0.1
+  - click==6.7
+  - click-plugins==1.0.3
+  - cligj==0.4.0
+  - descartes==1.1.0
+  - fiona==1.7.8
+  - geopandas==0.2.1
+  - geopy==1.11.0
+  - ipython-genutils==0.2.0
+  - jupyter-client==5.1.0
+  - jupyter-core==4.3.0
+  - munch==2.1.1
+  - numexpr==2.6.2
+  - osmnet==0.1.4
+  - pandana==0.3.0
+  - prompt-toolkit==1.0.14
+  - shapely==1.5.17.post1
+  - tables==3.4.2
+  - urbanaccess==0.1a0
+prefix: /home/steven/anaconda3/envs/urbanaccess-env
+
