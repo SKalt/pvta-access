@@ -35,7 +35,7 @@ nodes.to_csv(
 # ogr2ogr -f "GeoJSON" pvta_nodes.geojson pvta_nodes.csv -oo X_POSSIBLE_NAMES=x -oo Y_POSSIBLE_NAMES=y -oo KEEP_GEOM_COLUMNS=NO
 #%%
 edges = urbanaccess_net.net_edges[
-        urbanaccess_net.net_edges.net_type == 'transit',
+        urbanaccess_net.net_edges['net_type'] == 'transit'
         ]
 #%%
 #[ 'from', 'edge_id', 'oneway', 'ref', u'route_type', u'sequence',
